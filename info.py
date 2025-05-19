@@ -18,7 +18,7 @@ BOT_USERNAME = environ.get("BOT_USERNAME", 'Stevedm02_bot') # without @
 BIN_CHANNEL = int(environ.get("BIN_CHANNEL", '-1002593335772')) # admin your channel in stream 
 LOG_CHANNEL = int(environ.get("LOG_CHANNEL", '-1002577325064')) # admin your channel in users log 
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1496229374').split()] # 3567788, 678899, 5889467
-OWNER_USERNAME = environ.get("OWNER_USERNAME", 'mrpanda_02') # without @ 
+OWNER_USERNAME = environ.get("OWNER_USERNAME", 'mk_admin_2') # without @ 
 
 # pics information
 PICS = environ.get('PICS', 'https://envs.sh/ak-.jpg')
